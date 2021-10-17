@@ -14,7 +14,8 @@ Tui spotify lyrics program written in Rust/Python
 3. You need to edit path to kox.py in sptRef 
 4. Since im nob and i can't wirte refesh button from rust you need to open 
    another termianl and run sptRef from there to refresh lyrics on your first terminal
-5. You are good to go :)
+5. You can add folder to $PATH for convenience and running program directly from any directory
+6. You are good to go :)
 
 # Bugs
 if your song's lyrics are too long program wont display them :sadge:
