@@ -1,0 +1,9 @@
+#!/bin/bash
+python #directory to kox.py 
+
+while true
+do
+	echo "press enter to refresh"
+	read x
+	python #directory to kox.py 
+done

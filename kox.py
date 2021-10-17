@@ -8,12 +8,12 @@ import time
 f = open("out.txt","wt")
 t = open("title.txt","wt")
 f2 = open("out2.txt","wt")
-api = genius.Genius("R8-EO1pv0aqQNcbmacYFTW8yoLT_4dRq80J4gbImOum2exASp58pFz5-fEuxytrk")
+api = genius.Genius("")
 
 scope = "user-read-currently-playing"
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="642322d2139140cfaaf2055634d6e0f5",
-         client_secret="f1d90a9ef4344b189fe00768e862cebb",
-         redirect_uri="http://localhost:8888/callback",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="",
+         client_secret="",
+         redirect_uri="",
          scope="user-read-currently-playing"))
 
 result = sp.current_user_playing_track()
