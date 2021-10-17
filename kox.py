@@ -8,9 +8,15 @@ import time
 f = open("out.txt","wt")
 t = open("title.txt","wt")
 f2 = open("out2.txt","wt")
+
+#input genius api token here
 api = genius.Genius("")
 
+
 scope = "user-read-currently-playing"
+
+
+#input spotify api credentials here
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="",
          client_secret="",
          redirect_uri="",
